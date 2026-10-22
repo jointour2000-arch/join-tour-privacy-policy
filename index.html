@@ -134,7 +134,7 @@
 
   <header>
     <h1>Join Tour — Privacy Policy</h1>
-    <p>Effective date: August 10, 2026 &nbsp;•&nbsp; Applies to the Join Tour iOS and Android application</p>
+    <p>Effective date: October 22, 2026 &nbsp;•&nbsp; Applies to the Join Tour iOS and Android application</p>
   </header>
 
   <nav aria-label="Table of contents">
@@ -173,12 +173,18 @@
     <h2>2. Information We Collect</h2>
 
     <h3>2.1 Account Information</h3>
-    <p>When you register or log in, we collect:</p>
+    <p>
+      You sign in with your email address and a one-time code we send to it, or with Google Sign-In or Sign in
+      with Apple. The App does not use passwords. When you register or log in, we collect:
+    </p>
     <ul>
       <li>Email address</li>
-      <li>Password (stored by our servers in encrypted/hashed form — we never store or have access to your plaintext password)</li>
       <li>Display name</li>
-      <li>Profile photo/avatar URL, if you choose to set one</li>
+      <li>Your Google or Apple account identifier, if you sign in with Google or Apple (we receive your name and
+        email from that provider, never your Google or Apple password)</li>
+      <li>Profile photo, if you choose to set one</li>
+      <li>Phone number, if you choose to add one</li>
+      <li>The date and version of the Terms you accepted</li>
     </ul>
 
     <h3>2.2 Booking Information</h3>
@@ -211,10 +217,18 @@
     <h3>2.4 Reviews and Ratings</h3>
     <p>
       If you submit a review or star rating for a tour, place, or organizer, we collect and publicly display that
-      content along with your display name.
+      content, including any photos you attach, along with your display name.
     </p>
 
-    <h3>2.5 Push Notifications and Device Data</h3>
+    <h3>2.5 Messages, Photos, and Voice Messages</h3>
+    <p>
+      The App includes chats between travelers and tour organizers, including group chats for a tour. When you use
+      them, we collect and store the messages you send, the photos you attach, and the voice messages you record,
+      so that they can be delivered to the other members of the chat. We also keep the reports you submit about
+      other users or content, and the list of users you have blocked.
+    </p>
+
+    <h3>2.6 Push Notifications and Device Data</h3>
     <p>To deliver booking, payment, and organizer updates via push notification, we collect:</p>
     <ul>
       <li>Firebase Cloud Messaging (FCM) device token</li>
@@ -228,11 +242,21 @@
       information</a> for details on how Firebase processes this data on our behalf.
     </p>
 
-    <h3>2.6 Usage and Log Data</h3>
+    <h3>2.7 Usage and Log Data</h3>
     <p>
       Our servers automatically log standard technical data when you use the App, such as IP address, request
       timestamps, app version, and device/OS information, for security, debugging, and service-reliability
       purposes.
+    </p>
+
+    <h3>2.8 Analytics</h3>
+    <p>
+      We use Google Analytics for Firebase to understand how the App is used, for example which screens are
+      opened and which features are used. It collects app interaction events together with an app-instance
+      identifier and device information. We use this data only in aggregate to improve the App, and not for
+      advertising. See
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase's privacy
+      information</a> for details.
     </p>
   </section>
 
@@ -244,7 +268,10 @@
       <li>To generate booking/check-in passes and facilitate check-in with organizers</li>
       <li>To let you save and manage payment methods for future bookings</li>
       <li>To display reviews and ratings to other users</li>
+      <li>To deliver chat messages, photos, and voice messages to the other members of a chat</li>
+      <li>To review reports, filter abusive content, and block or suspend accounts that break our Terms</li>
       <li>To send booking, payment, and account-related push notifications</li>
+      <li>To understand, in aggregate, how the App is used</li>
       <li>To provide customer support and respond to your requests</li>
       <li>To detect, investigate, and prevent fraud, abuse, and security incidents</li>
       <li>To maintain, secure, and improve the App</li>
@@ -258,10 +285,12 @@
       <li><strong>Tour organizers:</strong> booking contact details (name, phone number, traveler count, notes) are
         shared with the organizer of a tour you book, so they can fulfill your booking.</li>
       <li><strong>Other users:</strong> your display name, avatar, and any reviews/ratings you submit are visible
-        to other users of the App.</li>
-      <li><strong>Service providers:</strong> we use infrastructure and processing providers — including Google
-        Firebase for push notifications — that process data on our behalf under contractual confidentiality and
-        data-protection obligations.</li>
+        to other users of the App. Messages, photos, and voice messages you send in a chat are visible to the
+        members of that chat.</li>
+      <li><strong>Service providers:</strong> we use infrastructure and processing providers that process data on
+        our behalf under contractual confidentiality and data-protection obligations: cloud hosting and file
+        storage, an email delivery provider for sign-in codes and account emails, Google Firebase for push
+        notifications and analytics, and Google and Apple for sign-in.</li>
       <li><strong>Payment processors:</strong> if a transaction is routed through a third-party payment processor,
         your payment details are shared with that processor to complete the transaction.</li>
       <li><strong>Legal requirements:</strong> we may disclose information if required by law, legal process, or to
@@ -273,14 +302,16 @@
 
   <section id="permissions">
     <h2>5. Device Permissions</h2>
-    <p>The App requests the following device permission:</p>
+    <p>The App asks for each of these permissions only when you use the feature that needs it:</p>
     <ul>
-      <li><strong>Push notifications:</strong> to deliver booking and account alerts. You can disable this at any
-        time in your device's system settings.</li>
+      <li><strong>Push notifications:</strong> to deliver booking and account alerts.</li>
+      <li><strong>Camera:</strong> to take a profile photo.</li>
+      <li><strong>Photo library:</strong> to choose a profile photo, or photos for a review or a chat message.</li>
+      <li><strong>Microphone:</strong> to record a voice message in a chat.</li>
     </ul>
     <p>
-      The App does <strong>not</strong> request access to your device's location, camera, microphone, contacts, or
-      photo library.
+      You can turn any of these off at any time in your device's system settings. The App does <strong>not</strong>
+      request access to your device's location or contacts.
     </p>
   </section>
 
@@ -289,16 +320,16 @@
     <p>
       We retain your account, booking, and payment-method metadata for as long as your account is active, and for
       a reasonable period afterward as needed to resolve disputes, comply with legal and accounting obligations,
-      and enforce our agreements. Reviews you have published may remain visible after account deletion in
-      anonymized or attributed form unless you request their removal.
+      and enforce our agreements. When you delete your account, what is removed and what is kept is described on
+      our <a href="delete-account/">account deletion page</a>.
     </p>
   </section>
 
   <section id="security">
     <h2>7. Data Security</h2>
     <p>
-      We use industry-standard safeguards — including encrypted network transport (HTTPS/TLS) and hashed password
-      storage — to protect your information. No method of transmission or storage is 100% secure, and we cannot
+      We use industry-standard safeguards, including encrypted network transport (HTTPS/TLS), to protect your
+      information. No method of transmission or storage is 100% secure, and we cannot
       guarantee absolute security.
     </p>
   </section>
@@ -310,8 +341,11 @@
         App.</li>
       <li><strong>Payment methods:</strong> you can add, edit, or delete saved payment methods at any time from the
         App.</li>
-      <li><strong>Account deletion:</strong> you may request deletion of your account and associated personal data
-        by contacting us at the email below.</li>
+      <li><strong>Account deletion:</strong> you can delete your account in the App (Profile → Delete account), or
+        request deletion by email. See our <a href="delete-account/">account deletion page</a> for the steps and
+        what data is removed.</li>
+      <li><strong>Blocking and reporting:</strong> you can block other users and report users or content from
+        within the App.</li>
       <li><strong>Notifications:</strong> you can disable push notifications in your device settings at any time.</li>
       <li><strong>Regional rights:</strong> depending on where you live, you may have additional rights under laws
         such as the GDPR or CCPA/CPRA, including the right to access, delete, correct, or port your data, and to
